@@ -50,7 +50,6 @@ JavaScript:
 * Creating  and utilizing custom html attributes with "data-"
 * Playing audio with the Audio class
 * Working with buttons - keystrokes and clicks. 
-  * Bubbling,
 
 ### Continued development
 
