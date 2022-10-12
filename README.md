@@ -13,7 +13,6 @@ This is a single-page website which simulates a drum kit via JS. You can click t
 
 ### Links
 
-- 
 - Live Site URL: [https://drumkit-snowy.vercel.app/](https://drumkit-snowy.vercel.app/)
 
 ## My process
