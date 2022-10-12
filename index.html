@@ -8,45 +8,55 @@
     <title>Keyboard Drumkit</title>
 </head>
 <body>
-<img  src="background.jpg" class="background">
 <main class="main-container">
-    <div class="button" id="clap">
+    <div class="keys" id="clap" data-key="65">
         <h1>A</h1>
         <p>Clap</p>
     </div>
-    <div class="button" id="hihat">
+    <div class="keys" id="hihat" data-key="83">
         <h1>S</h1>
         <p>Hihat</p>
     </div>
-    <div class="button" id="kick">
+    <div class="keys" id="kick" data-key="68">
         <h1>D</h1>
         <p>Kick</p>
     </div>
-    <div class="button" id="openhat">
+    <div class="keys" id="openhat" data-key="70">
         <h1>F</h1>
         <p>Openhat</p>
     </div>
-    <div class="button" id="boom">
+    <div class="keys" id="boom"  data-key="71">
         <h1>G</h1>
         <p>Boom</p>
     </div>
-    <div class="button" id="ride">
+    <div class="keys" id="ride" data-key="72">
         <h1>H</h1>
         <p>Ride</p>
     </div>
-    <div class="button" id="snare">
+    <div class="keys" id="snare" data-key="74">
         <h1>J</h1>
         <p>Snare</p>
     </div>
-    <div class="button" id="tom">
+    <div class="keys" id="tom" data-key="75">
         <h1>K</h1>
         <p>Tom</p>
     </div>
-    <div class="button" id="tink">
+    <div class="keys" id="tink"  data-key="76">
         <h1>L</h1>
         <p>Tink</p>
     </div>
 </main>
+
+<audio data-key="65" src="sounds/clap.wav"></audio>
+<audio data-key="83" src="sounds/hihat.wav"></audio>
+<audio data-key="68" src="sounds/kick.wav"></audio>
+<audio data-key="70" src="sounds/openhat.wav"></audio>
+<audio data-key="71" src="sounds/boom.wav"></audio>
+<audio data-key="72" src="sounds/ride.wav"></audio>
+<audio data-key="74" src="sounds/snare.wav"></audio>
+<audio data-key="75" src="sounds/tom.wav"></audio>
+<audio data-key="76" src="sounds/tink.wav"></audio>
+
 <script src="script.js"></script>
 </body>
 </html>

@@ -19,6 +19,8 @@ body {
     justify-content: center;
     align-items: center;
     overflow: auto;
+    background: url("background.jpg")  no-repeat;
+    background-size: cover;
 }
 
 .background {
@@ -38,7 +40,7 @@ body {
     width: 1500px;
 }
 
-.button {
+.keys {
     margin: 5px;
     padding: 20px 10px;
     width: 150px;
@@ -54,23 +56,23 @@ body {
     transition: ease-out 0.07s;
 }
 
-.button:hover {
+.keys:hover {
     cursor: pointer;
 }
 
-.button h1 {
+.keys h1 {
     font-size: 2.5rem;
     color: white;
     margin-bottom: 3px;
 }
 
-.button p {
+.keys p {
     text-transform: uppercase;
     color: #ffd500;
 }
 
 
-.button:active,.active {
+.active {
     outline: var(--btn-outline) 6px solid;
     border: none;
 }
@@ -91,7 +93,7 @@ body {
 
 @media screen and (max-width: 540px) {
 
-    .button {
+    .keys {
         width: 100px;
     }
 
