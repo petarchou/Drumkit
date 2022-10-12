@@ -25,7 +25,7 @@ tom.addEventListener('click', () => new Audio('sounds/tom.wav').play());
 
 
     function playSound(event) {
-        switch (event.key) {
+        switch (event.key.toLowerCase()) {
             case 'a':
                 clap.classList.toggle('active');
                 new Audio('sounds/clap.wav').play();
@@ -66,7 +66,7 @@ tom.addEventListener('click', () => new Audio('sounds/tom.wav').play());
     }
 
     function removeEffect(event){
-    switch (event.key) {
+    switch (event.key.toLowerCase()) {
         case 'a':
             clap.classList.toggle('active');
             break;
