@@ -8,7 +8,7 @@ This is a single-page website which simulates a drum kit via JS. You can click t
 
 ### Screenshot
 
-![](readme_extras/screenshot_7.jpg)
+![](readme_extras/Screenshot_7.jpg)
 
 
 ### Links
