@@ -19,7 +19,7 @@ This is a single-page website which simulates a drum kit via JS. You can click t
 
 Step 1:
 
-I watched the introduction to the tutorial and then proceeded to build it myself - with the knowledge I had.
+I watched the introduction to the tutorial and then proceeded to build the page myself.
 
 Step 2:
 
